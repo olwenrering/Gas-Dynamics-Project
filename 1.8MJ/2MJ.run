@@ -1,0 +1,7 @@
+job          From PMS        
+c_iben       5e-06           
+type_file     Binary          
+mod_init     /Users/paulvuattier/Desktop/cesam2k20/Gas-Dynamics-Project/1.8MJ/2MJ_B.pms
+dt0          0.0             
+pre_pms      False           
+li_zams      True            
