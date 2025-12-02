@@ -1,0 +1,10 @@
+Variables Pgaz, T, R, L, M: 0.2609E+5  1171.  0.3644  0.7320E-4  0.1000E-2
+Variables Pgaz, T, R, L, M: 0.2609E+5  1171.  0.3644  0.7320E-4  0.1000E-2
+atmosphere iter.  1 err. max. 5.7E+02, var: Pt, couche 88, corr 9.8E-04
+atmosphere iter.  2 err. max. 5.9E+02, var: Pt, couche 88, corr 9.8E-04
+atmosphere iter.  3 err. max. 3.9E+02, var: Pt, couche 88, corr 9.8E-04
+atmosphere iter.  4 err. max. 3.4E+02, var: Pt, couche 88, corr 9.8E-04
+ Pressure P is out of range for the CMS19 table
+ log10(P) =  -9.0042312463763672      GPa
+ log10(Pmin) = -9.00 GPa, log10(Pmax) = 13.00 GPa
+
