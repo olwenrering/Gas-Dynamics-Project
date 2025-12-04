@@ -1,0 +1,10 @@
+atmosphere iter.  2 err. max. 1.1E-06, var: Pt, couche100, corr 1.0E+00
+atmosphere iter.  3 err. max. 1.3E-09, var: Pt, couche100, corr 1.0E+00
+-----Restauration of the atmosphere (begin)-----------
+Lrac= 2.456E-09, Rrac= 1.148E-01, Teff= 1.199E+02
+------- Restauration of the atmosphere (end) ------
+atmosphere iter.  1 err. max. 1.8E-04, var: Pt, couche100, corr 1.0E+00
+ Temperature T is out of range for the CMS19 table
+ log10(T) =    1.9999974976824799     
+ log10(Tmin) = 2.00, log10(Tmax) = 8.00
+

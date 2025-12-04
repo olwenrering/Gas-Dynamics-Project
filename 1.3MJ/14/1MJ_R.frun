@@ -1,0 +1,32 @@
+osc_code_name            ADIPLS
+adipls_new_amdl          False
+adipls_amdl_name         
+modes                    p-modes
+reduce                   None
+nred                     5
+step                     1
+lmin                     0
+lmax                     3
+dels                     1
+nsel                     4
+sig1                     4.0
+sig2                     3000.0
+iscan                    250
+nsig                     Frequency
+remesh                   Just increase mesh density
+cts                      [10.0, 0.01, 0.015]
+npoints                  2400
+irsord                   20
+mdintg                   Shooting method
+iriche                   True
+iekinr                   With total photospheric displacement
+rotkr                    False
+gm1kr                    False
+amde                     False
+istsbc                   Exponentially decaying solution
+fctsbc                   δp = 0
+fsbc                     0.0
+to_zip                   False
+remesh                   Just increase mesh density
+cts                      [10.0, 0.01, 0.015]
+npoints                  2400

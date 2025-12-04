@@ -1,0 +1,10 @@
+   H1     He3     He4     C12     C13     N14     N15     O16     O17     Ti47
+ 0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00
+ 7.3E-01 8.4E-05 2.7E-01 1.2E-28 1.3E-28 1.4E-28 1.5E-28 1.6E-28 1.7E-28 4.7E-28
+ 0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00
+     1       1       1       1       1       1       1       1       1       1
+atmosphere iter.  1 err. max. 7.3E-04, var: Pt, couche100, corr 1.0E+00
+ Temperature T is out of range for the CMS19 table
+ log10(T) =    1.9999418157916984     
+ log10(Tmin) = 2.00, log10(Tmax) = 8.00
+

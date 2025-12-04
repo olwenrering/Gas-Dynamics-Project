@@ -1,0 +1,10 @@
+ Use of Lagrangian variables
+ Adaptative Lagrangean grid for the chemical composition
+ Model without diffusion
+ Model without mass loss
+Rotation type used: rot. solide cons. glob. mnt. cin.          
+One chooses as a binary initial model : ./1MJ_R_B.pms                                                                        
+           6         334         667           3         670
+stop, the centrifugal force is too large w_rot= 7.087E-05 > w_max= 4.500E-05
+decrease w_rot in the input file : 1MJ_R.don
+

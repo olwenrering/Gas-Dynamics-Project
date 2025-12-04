@@ -1,0 +1,7 @@
+Is the initial PMS model stored in a binary file?
+enter o for yes, enter n for no
+=================================================
+A problem happened in subroutine mod_cesam.cesam
+=============== Error Description ===============
+This ASCII file is unknown:/home/localuser/Desktop/M2/Gas_Dynamics/Project/cesam2k20/SUN_STAR_DATA/INIT/pms/8d-5
+

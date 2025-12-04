@@ -1,0 +1,10 @@
+atmosphere iter. 13 err. max. 2.2E+09, var: Pt, couche 84, corr 2.3E-10
+atmosphere iter. 14 err. max. 6.2E+01, var: Pt, couche 91, corr 7.8E-03
+atmosphere iter. 15 err. max. 8.3E+01, var: Pt, couche 84, corr 3.9E-03
+atmosphere iter. 16 err. max. 5.8E+01, var: Pt, couche 84, corr 7.8E-03
+atmosphere iter. 17 err. max. 3.7E+01, var: Pt, couche 84, corr 1.6E-02
+atmosphere iter. 18 err. max. 2.3E+01, var: Pt, couche 91, corr 1.6E-02
+ Pressure P is out of range for the CMS19 table
+ log10(P) =  -9.0092902701874724      GPa
+ log10(Pmin) = -9.00 GPa, log10(Pmax) = 13.00 GPa
+

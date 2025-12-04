@@ -1,0 +1,525 @@
+         NAMELISTS of the input file : 1MJ_R.don                                         
+
+&NL_CESAM
+ NOM_CHEMIN="/home/localuser/Desktop/M2/Gas_Dynamics/Project/cesam2k20/SUN_STAR_DATA/                                                ",
+ NOM_CTES="ctes_iau2015_codata2018",
+ NOM_OUTPUT="all_nadia           ",
+ NOM_OSC="none                ",
+ ACOR=F,
+ N_MAX=500        ,
+ PRECISION="lm",
+ /
+&NL_MASS
+ MTOT=  1.3000000000000004E-003,
+ NOM_PERTM="pertm_ext           ",
+ NOM_PERTM_SOLAR="pertm_ext           ",
+ NOM_PERTM_RGB="pertm_ext           ",
+ NOM_PERTM_AGB="pertm_ext           ",
+ NOM_PERTM_HOT="pertm_ext           ",
+ MDOT=  0.0000000000000000     ,
+ /
+&NL_EVOL
+ AGEMAX=  10000.000000000000     ,
+ XCX0= -1.0000000000000000     ,
+ RHOC= -1.0000000000000000     ,
+ L_STOP=  10000000000.000000     ,
+ R_STOP=  10000000000.000000     ,
+ ARRET="else",
+ DTLIST=  1000000000000.0000     ,
+ LOG_TEFF=  10.000000000000000     ,
+ NB_MAX_MODELES=10000      ,
+ HE_CORE= -1.0000000000000000     ,
+ T_STOP=  50000000000.000000     ,
+ X_STOP= -1.0000000000000000     ,
+ /
+&NL_CHIM
+ GRILLE_FIXE=F,
+ NOM_ABON="solaire_ags09       ",
+ MODIF_CHIM=F,
+ GARDE_XISH=F,
+ X0= 0.72499999999999998     ,
+ Y0= 0.27500000000000002     ,
+ Z0= -1.0000000000000000     ,
+ ZSX0=  0.0000000000000000     ,
+ /
+&NL_CONV
+ NOM_CONV="conv_jmj            ",
+ NOM_ALPHA="alpha_f             ",
+ ALPHA=  1.6420906995607241     ,
+ NOM_OVSHTS="ovshts_f            ",
+ OVSHTS=  0.0000000000000000     ,
+ OVSHTI=  0.0000000000000000     ,
+ JPZ=F,
+ CPTURB=  0.0000000000000000     ,
+ LEDOUX=F,
+ SOLBERG_HOILAND=F,
+ GOUGH_TAYLER=F,
+ /
+&NL_DIFF
+ DIFFUSION=F,
+ NOM_DIFFM="diffm_mp            ",
+ NOM_DIFFT="difft_cte           ",
+ NOM_DIFFT_FING="no_fing             ",
+ NOM_DIFFT_SMC="no_smc              ",
+ D_TURB=  0.0000000000000000     ,
+ RE_NU=  0.0000000000000000     ,
+ NOM_FRAD="no_frad             ",
+ /
+&NL_ROT
+ W_ROT=  9.0000000000000000     ,
+ UNIT="kms/s",
+ NOM_DIFFW="diffw_0             ",
+ NOM_DIFFMG_TS="diffmg_ts_0         ",
+ NOM_THW="cons_glob_mnt_cin   ",
+ NOM_GSF="no_gsf              ",
+ ROT_ZC="solide              ",
+ NOM_PERTW="pertw_0             ",
+ P_PERTW=  6.4999999999999999E+047,
+ LIM_JPZ=T,
+ TAU_DISK=  0.0000000000000000     ,
+ P_DISK=  0.0000000000000000     ,
+ W_SAT=  8.0000000000000000     ,
+ G_MODES=F,
+ MIXED_MODES=F,
+ INIT_ROT=F,
+ /
+&NL_ETAT
+ NOM_ETAT="etat_cms19          ",
+ F_EOS="eos5_sunags09_nodiff.bin                          ", 7*"                                                  ",
+ /
+&NL_OPA
+ NOM_OPA="opa_simple                                        ",
+ NOM_OPA_COND="cond_yveline21      ",
+ F_OPA="opa_yveline_AGSS09_met.bin                        ","TOPS_MW                                           ","TOPS_LMC                                          ","TOPS_SMC                                          ", 4*"                                                  ",
+ 
+ /
+&NL_NUC
+ NOM_NUC="ppcno9grad          ",
+ NOM_NUC_CPL="NACRE_LUNA          ",
+ NOM_NEUTRINOS="neutrinos_h94w66    ",
+ MITLER=F,
+ /
+&NL_ATM
+ NOM_ATM="lim_atm             ",
+ NOM_TDETAU="edding              ",
+ TAU_MAX=  20.000000000000000     ,
+ LIM_RO=T,
+ /
+&NL_MAG
+ NOM_MAG="mag_0               ",
+ MAG_INHIB=  0.0000000000000000     ,
+ BR=  0.0000000000000000     ,
+ BPHI=  0.0000000000000000     ,
+ BTHETA=  0.0000000000000000     ,
+ XMAX=  0.0000000000000000     ,
+ XMAX_UNIT="rstar",
+ BRMAX=  0.0000000000000000     ,
+ /
+&NL_RLG
+ NUM%INI0=6          ,
+ NUM%L0=0          ,
+ NUM%M_QS=2          ,
+ NUM%M_CH=3          ,
+ NUM%M_VTH=3          ,
+ NUM%M_ROT=3          ,
+ NUM%M_TDS=2          ,
+ NUM%M_PTM=2          ,
+ NUM%N_ATM=100        ,
+ NUM%N_MAX=2500       ,
+ NUM%N_MIN=150        ,
+ NUM%N_MIN_POST=150        ,
+ NUM%ORDRE=2          ,
+ NUM%YLD_REP=1          ,
+ NUM%YLD_OSC=1          ,
+ NUM%OSC2D_STEP=5          ,
+ NUM%OSC_STEP=1          ,
+ NUM%M_QS2D=3          ,
+ NUM%M_ROT2D=3          ,
+ NUM%M_LEGENDRE=2          ,
+ NUM%N_THETA=100        ,
+ NUM%ITER_QS= 7*0          ,
+ NUM%CTEL=  0.0000000000000000     ,
+ NUM%CTEP= -1.0000000000000000     ,
+ NUM%CTEM=  15.000000000000000     ,
+ NUM%CTER=  0.0000000000000000     ,
+ NUM%CTET= -1.0000000000000000     ,
+ NUM%D_GRAV= 0.50000000000000000     ,
+ NUM%COEFF_D_GRAV_POST=  1.0000000000000000     ,
+ NUM%D_GRAV_INT=  2.5000000000000000     ,
+ NUM%DLNTC=  5.0000000000000003E-002,
+ NUM%DRHOC= -1.0000000000000000     ,
+ NUM%DTEFF= -1.0000000000000000     ,
+ NUM%DLOGG= -1.0000000000000000     ,
+ NUM%DALPHA=  2.9999999999999999E-002,
+ NUM%DLUM= -1.0000000000000000     ,
+ NUM%DW= -1.0000000000000000     ,
+ NUM%DRHOCA= -1.0000000000000000     ,
+ NUM%DSENV=  5.0000000000000001E-004,
+ NUM%EVOLVED= 0.10000000000000001     ,
+ NUM%DN_FIXE= 0.10000000000000001     ,
+ NUM%DPSI=  5.0000000000000003E-002,
+ NUM%DT0=  1.0000000000000000     ,
+ NUM%DTMAX=  50.000000000000000     ,
+ NUM%DTMIN=  1.0000000000000001E-015,
+ NUM%FMIN_ABON=  1.0000000000000000E-002,
+ NUM%LOC_ZC=  1.0000000000000000E-004,
+ NUM%PRECIX=  1.0000000000000000E-004,
+ NUM%PRECIT=  5.0000000000000003E-002,
+ NUM%PSI0=  5.9999999999999998E-002,
+ NUM%RO_TEST= 0.10000000000000001     ,
+ NUM%Q0=  0.0000000000000000     ,
+ NUM%YLD_DX= -1.0000000000000000     ,
+ NUM%YLD_RAC=  1.0000000000000000     ,
+ NUM%TAU_MIN=  1.0000000000000000E-004,
+ NUM%DT_M= -2.5000000000000000     ,
+ NUM%X_TAMS=  1.0000000000000000E-002,
+ NUM%Y_AGB=  1.0000000000000000E-003,
+ NUM%DX_TAMS=  1.0000000000000000E-004,
+ NUM%MCZ_EXT_MIN=  1.0000000000000000E-010,
+ NUM%TOL_ALPHA=  1.0000000000000001E-005,
+ NUM%EXACT_STOP=T,
+ NUM%EN_MASSE=T,
+ NUM%KIPP=T,
+ NUM%LISSE=F,
+ NUM%MU_SAHA=F,
+ NUM%MVT_DIS=T,
+ NUM%NEW_BV=F,
+ NUM%YLD_HR=F,
+ NUM%YLD_L23=F,
+ NUM%YLD_FGONG=F,
+ NUM%D2=T,
+ NUM%GENERAL=F,
+ NUM%SIMPLE=T,
+ NUM%EXTENDED_OSC2D=F,
+ NUM%VDIFF_OUT=F,
+ NUM%GRAD_OUT=F,
+ NUM%TH_OUT=F,
+ NUM%EOS_INPLACE=F,
+ NUM%OUT_PMS=T,
+ NUM%CLEAN=T,
+ NUM%G_MODES_AB=F,
+ NUM%PRECISION="lm",
+ NUM%LTAU_REP="cub",
+ NUM%EC_S="average",
+ NUM%LIM_ZC="gabriel14",
+ NUM%INITED=T,
+ NUM%WRITE_REPH5=T,
+ /
+&NL_EXTRA
+ EXTRA%RHO_EXT=  3.5499999999999999E-009,
+ EXTRA%EASY_KRISW=F,
+ EXTRA%ELL_MAX=10         ,
+ EXTRA%ELL_MIN=1          ,
+ EXTRA%NDELTA=5          ,
+ EXTRA%ETA_SUN=  4.3599999999999998E-006,
+ EXTRA%T0_CORSARO=  601.00000000000000     ,
+ EXTRA%ETA_0= -1.0000000000000000     ,
+ EXTRA%RATIO_WORK_MAX=  100000.00000000000     ,
+ EXTRA%MODE_DAMPING=T,
+ EXTRA%NPT_CENTRAL_CZ=0          ,
+ EXTRA%NMORE_SHELLS=1          ,
+ EXTRA%OPT_TAU_TURB=0          ,
+ EXTRA%NU_V_FACT=  1.0000000000000000     ,
+ EXTRA%NU_V_ADD=  0.0000000000000000     ,
+ EXTRA%NU_H_FACT=  1.0000000000000000     ,
+ EXTRA%NU_H_ADD=  0.0000000000000000     ,
+ EXTRA%DEFF_FACT=  1.0000000000000000     ,
+ EXTRA%DEFF_ADD=  0.0000000000000000     ,
+ EXTRA%DV_FACT=  1.0000000000000000     ,
+ EXTRA%DV_ADD=  0.0000000000000000     ,
+ EXTRA%RE_C=  10.000000000000000     ,
+ EXTRA%RI_C= 0.16666666666666666     ,
+ EXTRA%OMEGA_SUN=  2.8600000000000001E-006,
+ EXTRA%FAST_ROT= -1.0000000000000000     ,
+ EXTRA%R_TRANSITION=  1.0090000000000000E-002,
+ EXTRA%WIDTH_TRANSITION=  1.2110000000000001E-003,
+ EXTRA%OMEGA_C=  6.2800000000000000E-006,
+ EXTRA%OMEGA_S=  3.4499999999999998E-007,
+ EXTRA%STRUCT2D="     ",
+ EXTRA%STRUCT2D_FILE="                                                  ",
+ EXTRA%T_MIX=  0.0000000000000000     ,
+ EXTRA%M_MIX=  0.0000000000000000     ,
+ EXTRA%EXPO_MIX=  3.0000000000000000     ,
+ EXTRA%CST_MIX=  0.0000000000000000     ,
+ EXTRA%D_EXPO_2=  0.0000000000000000     ,
+ EXTRA%L_EXPO=  0.0000000000000000     ,
+ EXTRA%L_EXPO_2=  0.0000000000000000     ,
+ EXTRA%ETA_GRAD=  1.0000000000000000     ,
+ EXTRA%GOOP=  0.0000000000000000     ,
+ EXTRA%ETA_VDIF=  1.0000000000000000     ,
+ EXTRA%NO_DIFF_POST=F,
+ EXTRA%B_STRENGTH=  0.0000000000000000     ,
+ EXTRA%ERRABOP= 0.10000000000000001     ,
+ EXTRA%TEFF_ZAMS_SUN=  5700.0000000000000     ,
+ EXTRA%TEFF_ZAMS_2=  7000.0000000000000     ,
+ EXTRA%T0_SUN=  2691533.7500000000     ,
+ EXTRA%T0_2=  794328.43750000000     ,
+ EXTRA%T_OV_INF=  500000.00000000000     ,
+ EXTRA%ALPHA_JCD11= 0.30000001192092896     ,
+ EXTRA%BETA_JCD11= 0.20000000298023224     ,
+ EXTRA%CLARET18_SHIFT=  0.0000000000000000     ,
+ EXTRA%T_OP_INF=  10000.000000000000     ,
+ EXTRA%T_OP_SUP=  6500000.0000000000     ,
+ EXTRA%T_OPLIB_INF=  10000.000000000000     ,
+ EXTRA%T_OPLIB_SUP=  1160000000.0000000     ,
+ EXTRA%USE_FINDNE=T,
+ EXTRA%LT_COMPTON_L=  8.1999999999999993     ,
+ EXTRA%LT_COMPTON_H=  8.6999999999999993     ,
+ EXTRA%T_COMPTON=  70000000.000000000     ,
+ EXTRA%PRVT_EC=F,
+ EXTRA%DS=  0.0000000000000000     ,
+ EXTRA%ALPHA_AUTOGUESS=F,
+ EXTRA%EC_CORR=T,
+ EXTRA%EC_GRID="cifist    ",
+ EXTRA%EC_EXTRAP="keep       ",
+ EXTRA%ALPHA_M10= -1.0000000000000000     ,
+ EXTRA%ALPHA_M15= -1.0000000000000000     ,
+ EXTRA%A_M10_Z005= -1.0000000000000000     ,
+ EXTRA%A_M15_Z005= -1.0000000000000000     ,
+ EXTRA%A_M10_Z02= -1.0000000000000000     ,
+ EXTRA%A_M15_Z02= -1.0000000000000000     ,
+ EXTRA%MASS_LOSS_ETA= 0.50000000000000000     ,
+ EXTRA%MASS_LOSS_ZETA= 0.50000000000000000     ,
+ EXTRA%LOG_LUM_MIN_JVH=  2.5000000000000000     ,
+ EXTRA%LOG_LUM_MAX_JVH=  6.7000000000000002     ,
+ EXTRA%V_INF_ON_V_ESC_HOT=  2.6000000000000001     ,
+ EXTRA%V_INF_ON_V_ESC_COLD=  1.3000000000000000     ,
+ EXTRA%ETA_R_RGB_1= 0.50000000000000000     ,
+ EXTRA%ETA_R_RGB_2=  1.0000000000000000     ,
+ EXTRA%DB_CME=  100.00000000000000     ,
+ EXTRA%TAU_CME=  2700.0000000000000     ,
+ EXTRA%A_CME= 0.52000000000000002     ,
+ EXTRA%ALPHA_CME=  1.8000000000000000     ,
+ EXTRA%ETA_NUC=  1.0000000000000000     ,
+ EXTRA%SCREEN=T,
+ EXTRA%R_H2H=  1.0000000000000000     ,
+ EXTRA%R_14N15O=  1.0000000000000000     ,
+ EXTRA%P_POWER_MATT15=  2.0000000000000000     ,
+ EXTRA%TAU_CONV_SUN=  35.000000000000000     ,
+ EXTRA%PERTW_PROFILE="constant",
+ EXTRA%MASS_TOL_CZ= 0.10000000000000001     ,
+ EXTRA%N_FAKE_CE=1          ,
+ EXTRA%D_CONV=  10000000000000.000     ,
+ EXTRA%CONV_BLOCK=F,
+ EXTRA%NO_TOT_RAD_POST=F,
+ EXTRA%INJ_A= -1.0000000000000000     ,
+ EXTRA%INJ_MU=  1.0000000000000000E-004,
+ EXTRA%OVS_TYPE="radia",
+ EXTRA%OVI_TYPE="adia ",
+ EXTRA%START_OVSHTI_ZAMS=T,
+ EXTRA%SOURCE_CTS="IAU2015_CODATA2018                                ",
+ EXTRA%DEBUG=F,
+ EXTRA%CONVECTION_OUT=F,
+ EXTRA%HSE_OUT=F,
+ EXTRA%ROTA_OUT="none    ",
+ EXTRA%LIM_ZC_OUT=F,
+ EXTRA%TS_OUT=F,
+ EXTRA%PRVT_TS=F,
+ EXTRA%TS_DT_MAX=  5.0000000000000003E-002,
+ EXTRA%LSMOOTH_FACT=  1.0000000000000000     ,
+ EXTRA%LSMOOTH_MIN=  0.0000000000000000     ,
+ EXTRA%ALPHA_FULLER=  1.0000000000000000     ,
+ EXTRA%TS_WEAK_B=F,
+ EXTRA%TS_HYSTERESIS=F,
+ EXTRA%TS_PATCH_REGIME=T,
+ EXTRA%TS_QLIM=T,
+ EXTRA%TS_EXTRAPOLATE=F,
+ EXTRA%TS_AVERAGE="parabola",
+ EXTRA%TS_AVERAGE_LENGTH="none",
+ EXTRA%TS_U0=1          ,
+ EXTRA%N_CONTOURS_BURN=4          ,
+ EXTRA%BURN_CONTOURS=  1.0000000000000000     ,  10.000000000000000     ,  1000.0000000000000     ,  100000.00000000000     , 6*-1.0000000000000000      ,
+ 
+ EXTRA%FULL_HR=T,
+ EXTRA%WRITES_TAU_CONV=T,
+ EXTRA%WRITES_NUC_NEUTR=T,
+ EXTRA%WRITES_L_NUC=T,
+ EXTRA%WRITES_MDOT=T,
+ EXTRA%WRITES_CONV=T,
+ EXTRA%WRITES_2D=T,
+ EXTRA%WRITES_BURN_ZONES=T,
+ EXTRA%WRITES_TOP=T,
+ EXTRA%PLATO_TRACK=F,
+ EXTRA%OSM_P_PERTW=  1.0000000000000000     ,
+ /
+
+Numerical parameters which are used : 
+for highly evolved models with small masses
+Y0 and Z0 are calculated from X0 et Z/X0, read on the
+file : 1MJ_R.don                                         
+X0= 7.250E-01, X0= 2.750E-01, Z0= 0.000E+00
+
+
+    Constantes fondamentales selon PLATO WP120 - Constants (CODATA 2018)             
+
+masse solaire= 1.98840987E+33
+luminosite solaire= 3.82800000E+33
+rayon solaire= 6.95700000E+10
+charge de l'electron= 4.80320471E-10
+constante de Boltzmann= 1.38064900E-16
+constante de Planck= 6.62607015E-27
+constante gravitation= 6.67430000E-08
+constante radiation= 7.56573325E-15
+celerite de la lumiere= 2.99792458E+10
+electron volt= 1.60217663E-12
+masse atomique unite= 1.66053907E-24
+masse de l'electron= 9.10938370E-28
+zero des Mbol L= 3.05500000E+33
+constante de Newton G Msol= 1.32712440E+26
+
+ masses des noyaux, donnees de NACRE 1999
+
+    H= 1.00782500E+00     H2= 2.01410180E+00      He3= 3.01602930E+00
+  He4= 4.00260330E+00    Li6= 6.01512100E+00      Li7= 7.01600400E+00
+  Be7= 7.01692920E+00    Be9= 9.01218210E+00      C12= 1.20000000E+01
+  C13= 1.30033548E+01    N13= 1.30057386E+01      N14= 1.40030740E+01
+  N15= 1.50010890E+01    O16= 1.59949146E+01      O17= 1.69991315E+01
+  O18= 1.79991604E+01    F18= 1.80009377E+01      F19= 1.89984032E+01
+ Ne20= 1.99924402E+01   Ne22= 2.19913855E+01     Na23= 2.29897697E+01
+ Mg24= 2.39850419E+01   Mg25= 2.49858370E+01     Mg26= 2.59825930E+01
+ Fe56= 5.58470000E+01   neut= 1.00866500E+00     prot= 1.00727647E+00
+
+One chooses as a binary initial model : ./1MJ_R_B.pms                                                                        
+Thermonuclear reactions tabulated for : ppcno9grad          
+PP+CNO, 9 species, H2, Li7, Be7 at equilibrium
+
+Number of tabulated  points :   160 from 1.000E+06K to 8.000E+07K
+thermonuclear reactions of the compilation :
+NACRE
+
+isotopes used :
+  1 :  H1 
+  2 : He3 
+  3 : He4 
+  4 : C12 
+  5 : C13 
+  6 : N14 
+  7 : N15 
+  8 : O16 
+  9 : O17 
+
+thermonuclear reactions at work :
+  1 : H1(p,e+ nu)H2       
+  2 : H2(p,g)He3          
+  3 : He3(He3,2p)He4      
+  4 : He3(a,g)Be7         
+  5 : Li7(p,a)He4         
+  6 : Be7(e-,nu g)Li7     
+  7 : Be7(p,a)He4         
+  8 : C12(p,g)C13         
+  9 : C13(p,g)N14         
+ 10 : N14(p,g)N15         
+ 11 : N15(p,g)O16         
+ 12 : N15(p,a)C12         
+ 13 : O16(p,g)O17         
+ 14 : O17(p,a)N14         
+ecrantage faible
+Temperature d'amorçage des reactions nucleaires: 1.000E+06
+Temperature maximale pour les reactions nucleaires: 8.000E+07
+
+
+One uses the input data X0: 7.250E-01, Y0: 2.750E-01, Z0: 0.000E+00
+Z0/X0: 0.000E+00 and the ratios metal/Z of the mixture
+
+mixture used
+ 1.200E+01 1.093E+01 3.260E+00 1.300E+00 2.790E+00 8.430E+00 7.830E+00 8.690E+00
+ 4.420E+00 7.930E+00 6.270E+00 7.530E+00 6.430E+00 7.510E+00 5.430E+00 7.150E+00
+ 5.230E+00 6.400E+00 5.080E+00 6.290E+00 3.050E+00 4.910E+00 3.960E+00 5.640E+00
+ 5.480E+00 7.450E+00 4.870E+00 6.200E+00
+
+relative abundances(by number) of metals within Z
+ 1.763E-06 1.933E-08 5.973E-07 2.607E-01 6.549E-02 4.745E-01 2.548E-05 8.245E-02
+ 1.804E-03 3.282E-02 2.607E-03 3.135E-02 2.607E-04 1.368E-02 1.645E-04 2.433E-03
+ 1.165E-04 1.889E-03 1.087E-06 7.874E-05 8.835E-06 4.229E-04 2.925E-04 2.730E-02
+ 7.181E-05 1.535E-03
+
+relative abundances(by mass) of metals within Z
+ 7.038E-07 1.002E-08 3.714E-07 1.801E-01 5.276E-02 4.366E-01 2.784E-05 9.570E-02
+ 2.385E-03 4.589E-02 4.046E-03 5.064E-02 4.645E-04 2.523E-02 3.355E-04 5.591E-03
+ 2.619E-04 4.354E-03 2.811E-06 2.169E-04 2.589E-05 1.265E-03 9.244E-04 8.770E-02
+ 2.434E-04 5.184E-03
+
+Isotopic ratios from AAG2021
+when starting from ZAMS 2D is put into 3He
+H2/H1= 2.000E-05, He3/He4(pms)= 1.700E-04, He3/He4(Zams)= 4.049E-04
+Li6/Li7= 5.097E-02, Be7/Be9= 1.000E-25, C13/C12= 1.119E-02
+N15/N14= 2.255E-03, O17/O16= 3.608E-04, O18/O16= 1.884E-03, Ne22/Ne20= 7.486E-02
+Mg25/Mg24= 1.268E-01, Mg26/Mg25= 1.102E+00, Be7/Z= 1.000E-29
+
+Ti47: fictitious species /= CNO, of mass :  47
+and charge : 22
+
+Reactions thermonucleaires des cycles PP, CNO
+
+nombre de reactions :  14
+nombre d'elements chimiques :  19
+
+abondances initiales/gramme deduites de:
+X0= 7.250E-01, Y0= 2.750E-01, Z0= 0.000E+00
+Z0/X0= 0.000E+00
+H1=X0, H2+He3+He4=Y0, avec H2 dans He3
+Z0 = 1-X0-Y0 = C12+C13+N14+N15+O16+O17+Ex
+
+
+H1: 7.250E-01, He3: 8.388E-05, He4: 2.749E-01, C12: 1.200E-28, C13: 1.300E-28
+N14: 1.400E-28, N15: 1.500E-28, O16: 1.599E-28, O17: 1.700E-28, Ex: 4.750E-28
+Ne20: 2.018E-28, Na23: 2.299E-28, Mg24: 2.431E-28, Al27: 2.698E-28, Si28: 2.809E-28
+P31: 3.097E-28, S32: 3.206E-28, Ca40: 4.008E-28,Fe56: 5.585E-28
+
+
+Abondances initiales en nombre: 12+Log10(Ni/Nh)
+H1: 1.200E+01, He3: 7.587E+00, He4: 1.098E+01, C12:-1.686E+01, C13:-1.686E+01
+N14:-1.686E+01, N15:-1.686E+01, O16:-1.686E+01, O17:-1.686E+01, Ex:-1.686E+01
+Ne20:-1.686E+01, Na23:-1.686E+01Mg24:-1.686E+01, Al27:-1.686E+01, Si28:-1.686E+01
+P31:-1.686E+01, S32:-1.686E+01, Ca40:-1.686E+01,Fe56:-1.686E+01
+
+rapports en nombre dans Z:
+C/Z: 1.250E-01, N/Z: 1.250E-01, O/Z: 1.250E-01, Ex/Z: 6.250E-02, Ne/Z:
+
+Rapports isotopiques en nombre:
+HE3/HE4= 4.049E-04, C13/C12= 1.119E-02, N15/N14= 2.255E-03, O17/O16= 3.608E-04
+
+
+abondances/gramme negligeables:
+H1: 7.250E-03, He3: 8.388E-07, He4: 2.749E-03, C12: 1.200E-30, C13: 1.300E-30
+N14: 1.400E-30, N15: 1.500E-30, O16: 1.599E-30, O17: 1.700E-30, Ex: 4.750E-30
+Ne20: 2.018E-30, Na23: 2.299E-30, Mg24: 2.431E-30, Al27: 2.698E-30, Si28: 2.809E-30
+P31: 3.097E-30, S32: 3.206E-30, Ca40: 4.008E-30, Fe56: 5.585E-30
+
+
+H2, Li7, Be7 e l'equilibre
+
+on utilise une table
+
+evol. temporelle, test de precision sur H1 et He4
+
+Conductive Opacities (Pothekin,1999), Table version: 2021
+
+Approximation de Kippenhahn pour le calcul du TdS
+
+
+------------ATMOSPHERE (initialisation)-----------
+
+init. atm. with internal model for Teff= 1.033E+03
+
+loi t(tau,teff,grav) Eddington, loi purement radiative
+tau_min= 0.0001x1.d-4, ro_ext= 0.0000
+
+atmosphere restaured with connection of the gradient
+tau at the bottom of the atmosphere tau_max= 2.000E+01
+radius and mass fixed at tau* as T(tau*,Teff)=Teff
+tau exterior 1.000E-04, number of shells : 100, R* at the shell # 75
+external limit on the density
+convection dans atmosphere: critere de SCHWARZSCHILD
+ tau_rac au sommet zone de transition :   1.0000000000000000     
+sans press. turb. dans atmosphere
+pas de conv. pour l'atmosphere après  20 itérations
+on force la convergence
+pas de conv. pour l'atmosphere après  20 itérations
+on force la convergence
+pas de conv. pour l'atmosphere après  20 itérations
+on force la convergence
+pas de conv. pour l'atmosphere après  20 itérations
+on force la convergence
+pas de conv. pour l'atmosphere après  20 itérations
+on force la convergence

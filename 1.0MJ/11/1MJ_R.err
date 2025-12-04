@@ -1,0 +1,10 @@
+=================================================
+A problem happened in subroutine mod_static.resout
+==================== Warning ====================
+no_croiss related problem. Computation continues.
+Variables Pgaz, T, R, L, M: 0.5112E+12  0.3474E+5  0.000  0.000  0.000
+Variables Pgaz, T, R, L, M: 0.5112E+12  0.3474E+5  0.000  0.000  0.000
+
+
+ no conv. du modele quasi-statique de PMS, ARRET
+
