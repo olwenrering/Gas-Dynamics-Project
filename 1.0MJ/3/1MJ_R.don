@@ -1,0 +1,133 @@
+ &NL_CESAM
+ NOM_CHEMIN = '/home/localuser/Desktop/M2/Gas_Dynamics/Project/cesam2k20/SUN_STAR_DATA/',
+ NOM_CTES = 'ctes_iau2015_codata2018',
+ NOM_OUTPUT = 'all_nadia',
+ NOM_OSC = 'none',
+ ACOR = F,
+ N_MAX = 500,
+ PRECISION = 'lm'
+ /
+ &NL_MASS
+ MTOT = 0.001,
+ NOM_PERTM = 'pertm_ext',
+ NOM_PERTM_SOLAR = 'pertm_ext',
+ NOM_PERTM_RGB = 'pertm_ext',
+ NOM_PERTM_AGB = 'pertm_ext',
+ NOM_PERTM_HOT = 'pertm_ext',
+ MDOT = 0.0
+ /
+ &NL_EVOL
+ AGEMAX = 10000.0,
+ ARRET = 'else',
+ DTLIST = 1000000000000.0,
+ LOG_TEFF = 10.0,
+ NB_MAX_MODELES = 10000,
+ HE_CORE = -1.0,
+ T_STOP = 50000000000.0,
+ X_STOP = -1.0,
+ XCX0 = -1.0,
+ RHOC = -1.0,
+ L_STOP = 10000000000.0,
+ R_STOP = 10000000000.0
+ /
+ &NL_CHIM
+ GRILLE_FIXE = F,
+ NOM_ABON = 'solaire_ags09',
+ MODIF_CHIM = F,
+ GARDE_XISH = F,
+ X0 = 0.725,
+ Y0 = 0.275,
+ ZSX0 = 0.0
+ /
+ &NL_CONV
+ NOM_CONV = 'conv_jmj',
+ NOM_ALPHA = 'alpha_f',
+ ALPHA = 1.642090699560724,
+ NOM_OVSHTS = 'ovshts_f',
+ OVSHTS = 0.0,
+ OVSHTI = 0.0,
+ JPZ = F,
+ CPTURB = 0.0,
+ LEDOUX = F,
+ SOLBERG_HOILAND = F,
+ GOUGH_TAYLER = F
+ /
+ &NL_DIFF
+ DIFFUSION = F,
+ NOM_DIFFM = 'diffm_mp',
+ NOM_DIFFT = 'difft_cte',
+ NOM_DIFFT_FING = 'no_fing',
+ NOM_DIFFT_SMC = 'no_smc',
+ D_TURB = 0.0,
+ RE_NU = 0.0,
+ NOM_FRAD = 'no_frad'
+ /
+ &NL_ROT
+ W_ROT = 3.0,
+ UNIT = 'kms/s',
+ NOM_DIFFW = 'diffw_0',
+ NOM_DIFFMG_TS = 'diffmg_ts_0',
+ NOM_GSF = 'no_gsf',
+ NOM_THW = 'cons_glob_mnt_cin',
+ ROT_ZC = 'solide',
+ NOM_PERTW = 'pertw_0',
+ P_PERTW = 6.5e+47,
+ LIM_JPZ = T,
+ G_MODES = F,
+ MIXED_MODES = F,
+ INIT_ROT = F,
+ TAU_DISK = 0.0,
+ P_DISK = 0.0,
+ W_SAT = 8.0
+ /
+ &NL_ETAT
+ NOM_ETAT = 'etat_cms19',
+ F_EOS = 'eos5_sunags09_nodiff.bin', '', '', '', '', '', '', ''
+ /
+ &NL_OPA
+ NOM_OPA = 'opa_simple',
+ NOM_OPA_COND = 'cond_yveline21',
+ F_OPA = 'opa_yveline_AGSS09_met.bin', 'TOPS_MW', 'TOPS_LMC', 'TOPS_SMC', '', '', '', ''
+ /
+ &NL_NUC
+ NOM_NUC = 'ppcno9grad',
+ NOM_NUC_CPL = 'NACRE_LUNA',
+ NOM_NEUTRINOS = 'neutrinos_h94w66',
+ MITLER = F
+ /
+ &NL_ATM
+ NOM_ATM = 'lim_atm',
+ NOM_TDETAU = 'edding',
+ TAU_MAX = 20.0,
+ LIM_RO = T
+ /
+ &NL_MAG
+ NOM_MAG = 'mag_0',
+ MAG_INHIB = 0.0,
+ BR = 0.0,
+ BPHI = 0.0,
+ BTHETA = 0.0,
+ XMAX = 0.0,
+ XMAX_UNIT = 'rstar',
+ BRMAX = 0.0
+ /
+ &NL_RLG
+ num%ini0 = 6,
+ num%m_ch = 3,
+ num%n_atm = 100,
+ num%d_grav = 0.5,
+ num%d_grav_int = 2.5,
+ num%dlntc = 0.05,
+ num%dtmax = 50.0,
+ num%fmin_abon = 0.01,
+ num%loc_zc = 0.0001,
+ num%precix = 0.0001,
+ num%precit = 0.05,
+ num%psi0 = 0.06,
+ num%q0 = 0.0,
+ num%dn_fixe = 0.1,
+ num%kipp = T,
+ num%mu_saha = F
+ /
+ &NL_EXTRA
+ /

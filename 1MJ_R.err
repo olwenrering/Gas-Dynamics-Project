@@ -5,6 +5,6 @@
      1       1       1       1       1       1       1       1       1       1
 atmosphere iter.  1 err. max. 1.4E-03, var: Pt, couche100, corr 1.0E+00
  Temperature T is out of range for the CMS19 table
- log10(T) =    1.9999968003577739     
+ log10(T) =    1.9999833380576684     
  log10(Tmin) = 2.00, log10(Tmax) = 8.00
 

@@ -63,7 +63,7 @@
  NOM_FRAD = 'no_frad'
  /
  &NL_ROT
- W_ROT = 5.0,
+ W_ROT = 4.0,
  UNIT = 'kms/s',
  NOM_DIFFW = 'diffw_0',
  NOM_DIFFMG_TS = 'diffmg_ts_0',
@@ -104,7 +104,7 @@
  &NL_MAG
  NOM_MAG = 'mag_0',
  MAG_INHIB = 0.0,
- BR = 0.0,
+ BR = 20.0,
  BPHI = 0.0,
  BTHETA = 0.0,
  XMAX = 0.0,
